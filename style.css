@@ -1,0 +1,50 @@
+/* :root {
+  --pink: #f3b5eb;
+  --blue: #035d87;
+  --grey: #696969;
+} */
+
+.navbar {
+  background-color: #f3b5eb;
+  background-image: linear-gradient(315deg, #f3b5eb 0%, #035d87 0%);
+}
+
+header {
+  background: #f3b5eb;
+  height: 60vh;
+  color: #fff;
+}
+
+[data-hue] {
+  background: hsl(var(--hue, 0) 60% 90%);
+  transition: background 0.3s;
+}
+
+section {
+  height: auto;
+}
+
+header,
+section
+/* footer */ {
+  display: flex;
+  place-content: center;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+} */
